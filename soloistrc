@@ -34,25 +34,17 @@ recipes:
 - sprout-jetbrains-editors::rubymine
 
 node_attributes:
+  workspace_directory: 'development'
   sprout:
     git:
-      domain: pivotallabs.com
       authors:
-        - initials: ah
-          name: Abhijit Hiremagalur
-          username: abhi
-        - initials: bc
-          name: Brian Cunnie
-          username: cunnie
-        - initials: jrhb
-          name: Jonathan Barnes
-        - initials: lw
-          name: Luke Winikates
-          username: lwinikates
+        - initials: blb
+          name: Brandon Burnett
+          username: brandon.burnett
       projects:
         -
-          name: sprout-wrap
-          url: https://github.com/pivotal-sprout/sprout-wrap.git
+          name: dot-files
+          url: https://github.com/dudemcbacon/dot-files.git
     terminal:
       default_profile: 'Pro'
     settings:
@@ -65,31 +57,45 @@ node_attributes:
       magnification: false
     homebrew:
       formulae:
-        - ctags-exuberant
         - ag
         - chromedriver
+        - ctags-exuberant
+        - go
         - imagemagick
         - node
         - pstree
         - qt
-        - ssh-copy-id
-        - tmux
-        - tree
-        - watch
-        - wget
         - rbenv-binstubs
         - rbenv-gem-rehash
+        - ssh-copy-id
+        - tmate
+        - tmux
+        - tree
+        - unrar
+        - vim
+        - watch
+        - wget
+        - wget
+        - zsh
       casks:
+        - battle-net
+        - caffiene
         - ccmenu
+        - disk-inventory-x
         - firefox
         - flycut
-        - rowanj-gitx
         - github
         - google-chrome
         - google-drive
         - google-hangouts
+        - hipchat
+        - iterm2
         - macvim
+        - rowanj-gitx
         - skype
+        - spotify
+        - steam
+        - sublime
         - textmate
         - vagrant
         - virtualbox
